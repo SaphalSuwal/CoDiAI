@@ -9,7 +9,7 @@ const AboutUs = () => {
       <div className="min-h-screen bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500 pt-28 px-6">
         
         {/* Page Header */}
-        <div className="text-center text-white mb-14">
+        <div className="text-center text-white mb-16">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
             About Us
           </h1>
@@ -18,25 +18,25 @@ const AboutUs = () => {
           </p>
         </div>
 
-        {/* Main Content */}
-        <div className="max-w-4xl mx-auto bg-transparent p-10 rounded-2xl shadow-xl ">
+        {/* Main Content - Transparent Glass Card */}
+        <div className="max-w-4xl mx-auto bg-white/10 backdrop-blur-xl border border-white/30 rounded-3xl p-10 shadow-2xl space-y-10">
           
-          <section className="mb-8">
-            <h2 className="text-2xl font-semibold mb-3 text-gray-100">
+          <section>
+            <h2 className="text-2xl font-semibold mb-4 text-white">
               Who We Are
             </h2>
-            <p className="text-gray-100 leading-relaxed">
+            <p className="text-white/90 leading-relaxed">
               We are passionate about making learning simple, practical, and
               accessible for everyone. Our platform is designed to remove
               confusion and help learners focus on real understanding.
             </p>
           </section>
 
-          <section className="mb-8">
-            <h2 className="text-2xl font-semibold mb-3 text-gray-100">
+          <section>
+            <h2 className="text-2xl font-semibold mb-4 text-white">
               What We Do
             </h2>
-            <p className="text-gray-100 leading-relaxed">
+            <p className="text-white/90 leading-relaxed">
               We combine artificial intelligence with modern teaching methods
               to deliver personalized learning paths, interactive lessons,
               and instant support whenever you need it.
@@ -44,10 +44,10 @@ const AboutUs = () => {
           </section>
 
           <section>
-            <h2 className="text-2xl font-semibold mb-3 text-gray-100">
+            <h2 className="text-2xl font-semibold mb-4 text-white">
               Our Mission
             </h2>
-            <p className="text-gray-100 leading-relaxed">
+            <p className="text-white/90 leading-relaxed">
               Whether you're a student or a beginner, our mission is to guide
               you step by step and help you build skills that truly matter.
             </p>

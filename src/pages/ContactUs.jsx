@@ -46,50 +46,52 @@ const ContactUs = () => {
           </div>
 
           {/* Contact Card */}
-          <div className="bg-white rounded-3xl shadow-2xl p-8">
-            <h2 className="text-2xl font-semibold mb-6 text-gray-800">
-              Send us a message
-            </h2>
+<div className="bg-white/10 backdrop-blur-xl rounded-3xl border border-white/30 p-8 md:p-10 shadow-xl">
+  <h2 className="text-2xl font-semibold mb-6 text-white">
+    Send us a message
+  </h2>
 
-            <form onSubmit={handleSubmit} className="space-y-4">
-              <input
-                type="text"
-                name="name"
-                placeholder="Your Name"
-                value={formData.name}
-                onChange={handleChange}
-                className="w-full rounded-xl border border-gray-300 px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500"
-                required
-              />
+  <form onSubmit={handleSubmit} className="space-y-5">
+    <input
+      type="text"
+      name="name"
+      placeholder="Your name"
+      value={formData.name}
+      onChange={handleChange}
+      className="w-full rounded-xl bg-white/20 border border-white/30 px-4 py-3 text-sm text-white placeholder-white/70 focus:outline-none focus:ring-2 focus:ring-white/60"
+      required
+    />
 
-              <input
-                type="email"
-                name="email"
-                placeholder="Your Email"
-                value={formData.email}
-                onChange={handleChange}
-                className="w-full rounded-xl border border-gray-300 px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500"
-                required
-              />
+    <input
+      type="email"
+      name="email"
+      placeholder="Your email"
+      value={formData.email}
+      onChange={handleChange}
+      className="w-full rounded-xl bg-white/20 border border-white/30 px-4 py-3 text-sm text-white placeholder-white/70 focus:outline-none focus:ring-2 focus:ring-white/60"
+      required
+    />
 
-              <textarea
-                name="message"
-                rows="4"
-                placeholder="Tell us what's on your mind..."
-                value={formData.message}
-                onChange={handleChange}
-                className="w-full rounded-xl border border-gray-300 px-4 py-3 text-sm resize-none focus:outline-none focus:ring-2 focus:ring-indigo-500"
-                required
-              />
+    <textarea
+      name="message"
+      rows="4"
+      placeholder="Tell us what’s on your mind..."
+      value={formData.message}
+      onChange={handleChange}
+      className="w-full rounded-xl bg-white/20 border border-white/30 px-4 py-3 text-sm text-white placeholder-white/70 resize-none focus:outline-none focus:ring-2 focus:ring-white/60"
+      required
+    />
 
-              <button
-                type="submit"
-                className="w-full rounded-xl bg-indigo-600 py-3 text-white font-semibold hover:bg-indigo-700 transition"
-              >
-                Send Message
-              </button>
-            </form>
-          </div>
+    <button
+  type="submit"
+  className="w-full rounded-xl bg-white/20 border border-white/30 px-4 py-3 text-white text-sm font-semibold placeholder-white/70 backdrop-blur transition duration-300 hover:bg-white/30 hover:scale-105"
+>
+  Send Message
+</button>
+
+  </form>
+</div>
+
 
         </div>
       </div>

@@ -10,7 +10,7 @@ const Login = () => {
       
       {/* Brand Header */}
       <div className="mb-6 text-center">
-        <h1 className="text-3xl font-bold tracking-tighter bg-gradient-to-r from-white via-pink-500 to-purple
+        <h1 className="text-3xl font-bold tracking-tighter bg-gradient-to-r from-white via-pink-500 to-white
         -800 bg-clip-text text-transparent">
           CoDi AI
         </h1>

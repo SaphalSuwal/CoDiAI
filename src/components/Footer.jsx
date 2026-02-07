@@ -12,7 +12,7 @@ function Footer() {
             <Link
               to="/home"
               className="text-2xl font-bold tracking-tighter
-                         bg-gradient-to-r from-white via-pink-300 to-purple-200
+                         bg-gradient-to-r from-white via-pink-500 to-purple-800
                          bg-clip-text text-transparent drop-shadow-lg transition-all duration-300 hover:brightness-125"
             >
               CoDi AI
